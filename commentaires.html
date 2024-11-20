@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Auteur : Mathis Caron-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tp1-Wiki-Star-Wars</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="body">
+    <div>
+        <header flexbox="fieldset">
+            <img src="img/Star_Wars_Logo..png" alt="Logo Star Wars">
+            <h1 id="haut">
+                Star Wars pour les nuls
+            </h1>
+        </header>
+        <main>
+            <div>
+                <nav class="text-centered">
+                    <table>
+                        <a href="index.html">Accueil</a>
+                        <a href="galerie-image.html">Galerie_Photo</a>
+                        <a href="commentaires.html">Commentaires</a>
+                        <a href="connexion.html" class="border">Se_connecter</a>
+                    </table>
+                </nav>
+            </div>
+            <div flexbox="fieldset" class="form">
+                <form action="mailto:mathiscaron07@gmail.com" method="post" enctype="text/plain"></form>
+                <section>
+                    <div>
+                        <label for="txtName">Prénom:</label>
+                        <input type="text" name="txtName" id="txtName">
+                    </div>
+                    <div>
+                        <label for="txtName">Nom:</label>
+                        <input type="text" name="txtName" id="txtName">
+                    </div>
+                    <div>
+                        <label for="txtName">Téléphone:</label>
+                        <input type="text" name="txtName" id="txtName">
+                    </div>
+                    <div>
+                        <label for="txtName">Adresse Couriel:</label>
+                        <input type="text" name="txtName" id="txtName">
+                    </div>
+                    <div>
+                        <label class="label" for="listHobbies">Province</label>
+                        <select name="listHobbies" id="listHobbies" size="5">
+                            <option value="LT">Alberta</option>
+                            <option value="HK">Colombie-Britannique</option>
+                            <option value="CI">Île-du-Prince-Édouard</option>
+                            <option value="SK">Manitoba</option>
+                            <option value="NT">Québec</option>
+                            <option value="BB">Saskatchewan</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="txtName">Date de naissance:</label>
+                        <input type="text" name="txtName" id="txtName">
+                    </div>
+                    <div>
+                        <label for="genres">Quels sont vos genres de films?</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="chkAction" id="chkAction">
+                        <label for="chkAction">Action</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="chkComédie" id="chkComédie">
+                        <label for="chkComédie">Comédie</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="chkDrame" id="chkDrame">
+                        <label for="chkDrame">Drame</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="chkSuspense" id="chkSuspense">
+                        <label for="chkSuspense">Suspense</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="chkHorreur" id="chkHorreur">
+                        <label for="chkHorreur">Horreur</label>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <label for="note">Quels sont vos genres de films?</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="note" id="noteExcellente"></input>
+                        <label for="excellent">Excellent</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="note" id="noteTrèsBien"></input>
+                        <label for="trèsBien">Très bien</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="note" id="noteMoyen"></input>
+                        <label for="moyen">Moyen</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="note" id="noteBof"></input>
+                        <label for="bof">Bof</label>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <input type="submit" value="Envoyer les commentaires">
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
